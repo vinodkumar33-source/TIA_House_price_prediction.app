@@ -68,7 +68,7 @@ model.fit(X_train, y_train)
 # -----------------------------
 # Step 3: Streamlit UI
 # -----------------------------
-st.title("🏠 Hyderabad House Price Prediction")
+st.title("🏠vinod's Hyderabad House Price Prediction")
 st.write("Enter house details below to predict price")
 
 # Inputs
@@ -95,3 +95,4 @@ r2 = r2_score(y_test, y_pred)
 st.sidebar.header("📊 Model Performance")
 st.sidebar.write(f"**MAE:** {mae:,.0f}")
 st.sidebar.write(f"**R² Score:** {r2:.2f}")
+
